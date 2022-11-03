@@ -2,20 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AirBnB</title>
-  <link rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-  crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/103-common.css">
-  <link rel="stylesheet" href="styles/103-header.css">
-  <link rel="stylesheet" href="styles/103-footer.css">
-  <link rel="stylesheet" href="styles/103-filters.css">
-  <link rel="stylesheet" href="styles/103-places.css">
-  <link rel="icon" href="images/icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AirBnB Clone</title>
+
+  <link rel="icon" type="image/png" href="images/icon.png" />
+
+  <link rel="stylesheet" type="text/css" href="styles/103-common.css" />
+  <link rel="stylesheet" type="text/css" href="styles/103-header.css" />
+  <link rel="stylesheet" type="text/css" href="styles/103-filters.css" />
+  <link rel="stylesheet" type="text/css" href="styles/103-places.css" />
+  <link rel="stylesheet" type="text/css" href="styles/103-footer.css" />
 </head>
 
 <body>
@@ -24,234 +21,152 @@
     <section class="filters">
       <div class="locations">
         <h3>States</h3>
-        <h4>ie. New York/ Virginia...</h4>
-        <div class="popover">
-          <h2>New York:</h2>
-          <ul>
-            <li>Buffalo</li>
-            <li>New York City</li>
-          </ul>
-          <h2>Virginia:</h2>
-          <ul>
-            <li>Charlottesville</li>
-            <li>Richmond</li>
-          </ul>
-        </div>
-      </div>
-      <div class="amenities">
-        <h3>amenities</h3>
-        <h4>ie. Laundry/ Internet...</h4>
+        <h4>California, Arizona...</h4>
         <ul class="popover">
-          <li>Internet</li>
-          <li>TV</li>
-          <li>Kitchen</li>
-          <li>Iron</li>
+          <li>
+            <h2>Arizona:</h2>
+            <ul>
+              <li>Page</li>
+              <li>Page2</li>
+            </ul>
+          </li>
+          <li>&nbsp;</li>
+          <li>
+            <h2>California:</h2>
+            <ul>
+              <li>San Francisco</li>
+              <li>Los Altos</li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <button>Search</button>
+      <div class="amenities">
+        <h3>Amenities</h3>
+        <h4>Internet, Kitchen...</h4>
+        <ul class="popover">
+          <li>
+            <ul>
+              <li>Internet</li>
+              <li>TV</li>
+              <li>Kitchen</li>
+              <li>Iron</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <button></button>
     </section>
     <section class="places">
       <h1>Places</h1>
-
       <article>
-
-        <div class="name_and_price">
-          <h2>My home</h2>
-          <div class="price_by_night">&#36;7</div>
-        </div>
+        <h2>My home</h2>
+        <div class="price_by_night">$80</div>
         <div class="information">
-          <div class="max_guest">
-            <img src="images/icon_group.png" alt="Guests">
-            <br>2 Guests
-          </div>
-          <div class="number_rooms">
-            <img src="images/icon_bed.png" alt="Beds">
-            <br>1 Room
-          </div>
-          <div class="number_bathrooms">
-            <img src="images/icon_bath.png" alt="Baths">
-            <br>0 Bathrooms
-          </div>
+          <div class="max_guest">2 Guests</div>
+          <div class="number_rooms">1 Bedroom</div>
+          <div class="number_bathrooms">1 Bathroom</div>
         </div>
         <div class="user">
-          Owner: John Lennon
+          <strong>Owner:</strong>&nbsp;
+          John Lennon
         </div>
         <div class="description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora minima sequi repellat nostrum
-          itaque placeat ipsam quo ducimus, veritatis quasi magnam quaerat atque numquam eos libero cum non
-          modi est?
+          This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people. It locates at the
+          center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to
+          Jingan Temple.
         </div>
         <div class="amenities">
           <h2>Amenities</h2>
           <ul>
-            <li>
-              <i class="fa fa-tv" aria-hidden="true"></i>
-              <p>Tv shows</p>
-            </li>
-            <li>
-              <i class="fa fa-wifi" aria-hidden="true"></i>
-              <p>Internet withband</p>
-            </li>
-            <li>
-              <i class="fa fa-paw" aria-hidden="true"></i>
-              <p>Animals</p>
-            </li>
+            <li class="amenity-tv">TV</li>
+            <li class="amenity-wifi">WiFi</li>
+            <li class="amenity-pets">Pets friendly</li>
           </ul>
         </div>
         <div class="reviews">
-          <h2>Reviews</h2>
-          <h3>From Jonny the June 18 2017</h3>
+          <h2>2 Reviews</h2>
           <ul>
             <li>
-              <p>
-                Had the dankest stay here, thanks bois!
-              </p>
+              <h3>From Bob Dylan the 27th January 2017</h3>
+              <p>Runshi is an epic host. Nothing more I can say. 5 star!</p>
             </li>
-          </ul>
-          <h3>From Carson the April 22 2018</h3>
-          <ul>
             <li>
-              <p>
-                You bros know what I'm talking about. You know. Stay lit.
-              </p>
+              <h3>From Connor the 4th January 2017</h3>
+              <p>Highly recommended!</p>
             </li>
           </ul>
         </div>
       </article>
       <article>
-        <div class="name_and_price">
-          <h2>Tiny place</h2>
-          <div class="price_by_night">&#36;0</div>
-        </div>
+        <h2>Tiny house</h2>
+        <div class="price_by_night">$65</div>
         <div class="information">
-          <div class="max_guest">
-            <img src="images/icon_group.png" alt="Guests">
-            <br>1 Guest
-          </div>
-          <div class="number_rooms">
-            <img src="images/icon_bed.png" alt="Beds">
-            <br>4 Rooms
-          </div>
-          <div class="number_bathrooms">
-            <img src="images/icon_bath.png" alt="Baths">
-            <br>1 Bathrooms
-          </div>
+          <div class="max_guest">4 Guests</div>
+          <div class="number_rooms">2 Bedrooms</div>
+          <div class="number_bathrooms">1 Bathroom</div>
         </div>
         <div class="user">
-          <strong>Owner:</strong> Avocado &#38; Alpaca Spiritualist
+          <strong>Owner:</strong>&nbsp;
+          Adrienne
         </div>
         <div class="description">
-          Hi there. You're reading this right now, yes? I can sense it. Now,
-          are you my soul mate? If so, I await you. Yes, you, you fellow
-          spiritualist. You, who dedicates each morning carefully tending your
-          backyard grove of avocado trees. You, who cannot spend one day away
-          from the presence of your family of 17 alpacas. You know who you
-          are. Unite with me. Unite with my spirit. I have two boiled eggs
-          waiting for you.
+          Our place is a private, affordable stand-alone guest house centrally located just minutes to French
+          Quarters, downtown, the Fair Grounds (Jazz Fest) and City Park. The guest house is a quaint, 400
+          square ft. with a full bath, mini kitchen, & living room. The extra high ceilings make the home feel
+          more spacious. The sofa converts to a bed also. We have a hand made counter area that adds character
+          to the room and a great porch/deck to relax on and have a glass of Merlot.
         </div>
         <div class="amenities">
           <h2>Amenities</h2>
           <ul>
-            <li>
-              <i class="fa fa-gamepad" aria-hidden="true"></i>
-              <p>Video games</p>
-            </li>
-        
+            <li class="amenity-pets">Pets friendly</li>
           </ul>
         </div>
         <div class="reviews">
-          <h2>Reviews</h2>
-          <h3>From Jonny the June 18 2017</h3>
+          <h2>1 Review</h2>
           <ul>
             <li>
-              <p>
-                Had the dankest stay here, thanks bois!
-              </p>
-            </li>
-          </ul>
-          <h3>From Carson the April 22 2018</h3>
-          <ul>
-            <li>
-              <p>
-                You bros know what I'm talking about. You know. Stay lit.
-              </p>
+              <h3>From Max the 27th January 2017</h3>
+              <p>Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
+                and everything went super smooth. Location is also great if you like running and
+                something a bit more quiet. I would suggest a car or take into consideration that you
+                might have to Uber into the city from the location. Overall, would recommend the place
+                anytime.</p>
             </li>
           </ul>
         </div>
-
       </article>
       <article>
-        <div class="name_and_price">
-          <h2>A suit</h2>
-          <div class="price_by_night">&#36;15</div>
-        </div>
+        <h2>A suite</h2>
+        <div class="price_by_night">$190</div>
         <div class="information">
-          <div class="max_guest">
-            <img src="images/icon_group.png" alt="Guests">
-            <br>3 Guest
-          </div>
-          <div class="number_rooms">
-            <img src="images/icon_bed.png" alt="Beds">
-            <br>4 Rooms
-          </div>
-          <div class="number_bathrooms">
-            <img src="images/icon_bath.png" alt="Baths">
-            <br>3 Bathrooms
-          </div>
+          <div class="max_guest">6 Guests</div>
+          <div class="number_rooms">3 Bedrooms</div>
+          <div class="number_bathrooms">2 Bathrooms</div>
         </div>
         <div class="user">
-          <strong>Owner:</strong> Avocado &#38; Alpaca Spiritualist
+          <strong>Owner:</strong>&nbsp;
+          Bill Zuckerberg
         </div>
         <div class="description">
-          Hi there. You're reading this right now, yes? I can sense it. Now,
-          are you my soul mate? If so, I await you. Yes, you, you fellow
-          spiritualist. You, who dedicates each morning carefully tending your
-          backyard grove of avocado trees. You, who cannot spend one day away
-          from the presence of your family of 17 alpacas. You know who you
-          are. Unite with me. Unite with my spirit. I have two boiled eggs
-          waiting for you.
+          Newly renovated spacious 2 bedrooms 2 baths in cozy Gastown style unit with the views of North Shore
+          mountains. Woodward’s landmark building situated at the historic heart of Vancouver.
         </div>
         <div class="amenities">
           <h2>Amenities</h2>
           <ul>
-            <li>
-              <i class="fa fa-gamepad" aria-hidden="true"></i>
-              <p>Video games</p>
-            </li>
-            <li>
-              <i class="fa fa-shower" aria-hidden="true"></i>
-              <p>Shower</p>
-            </li>
-            <li>
-              <i class="fa fa-fire" aria-hidden="true"></i>
-              <p>Litness</p>
-            </li>
+            <li class="amenity-tv">TV</li>
+            <li class="amenity-pets">Pets friendly</li>
           </ul>
         </div>
         <div class="reviews">
-          <h2>Reviews</h2>
-          <h3>From Jonny the June 18 2017</h3>
-          <ul>
-            <li>
-              <p>
-                Had the dankest stay here, thanks bois!
-              </p>
-            </li>
-          </ul>
-          <h3>From Carson the April 22 2018</h3>
-          <ul>
-            <li>
-              <p>
-                You bros know what I'm talking about. You know. Stay lit.
-              </p>
-            </li>
-          </ul>
+          <h2>0 Reviews</h2>
         </div>
       </article>
     </section>
   </div>
   <footer>
-    Best School
+    <p>Best School</p>
   </footer>
 </body>
 
