@@ -42,7 +42,7 @@
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    line-height: 55px;
+    line-height: 5px;
     margin-bottom: 10px;
     align-content: space-between;
 }
@@ -89,7 +89,7 @@
 }
 
 .icon_bed {
-    background-image: url(../iamges/icon_bed.png);
+    background-image: url(../images/icon_bed.png);
     height: 50px;
     width: 50px;
 }
